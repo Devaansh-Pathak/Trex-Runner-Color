@@ -206,7 +206,7 @@ function spawnObstacles() {
 function spawnClouds() {
   //write code here to spawn the clouds
   if (frameCount % 60 === 0) {
-    var cloud = createSprite(600, 210, 40, 10);
+    var cloud = createSprite(1500, 210, 40, 10);
     cloud.y = Math.round(random(80,200));
     cloud.addImage(cloudImage);
     cloud.scale = 0.5;
